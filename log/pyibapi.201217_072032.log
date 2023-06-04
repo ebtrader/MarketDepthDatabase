@@ -1,0 +1,17 @@
+(MainThread) 201217_07:20:32.826 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfarm.nj
+(MainThread) 201217_07:20:32.827 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfuture
+(MainThread) 201217_07:20:32.827 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:cashfarm
+(MainThread) 201217_07:20:32.828 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usopt
+(MainThread) 201217_07:20:32.828 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfarm
+(MainThread) 201217_07:20:32.828 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:cashhmds
+(MainThread) 201217_07:20:32.829 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:ushmds
+(MainThread) 201217_07:20:32.829 ERROR wrapper.py:56 ERROR -1 2158 Sec-def data farm connection is OK:secdefnj
+(MainThread) 201217_07:20:33.256 ERROR wrapper.py:56 ERROR -1 2108 Market data farm connection is inactive but should be available upon demand.usfuture
+(MainThread) 201217_07:20:33.256 ERROR wrapper.py:56 ERROR -1 2108 Market data farm connection is inactive but should be available upon demand.usfuture
+(MainThread) 201217_07:20:34.478 ERROR wrapper.py:56 ERROR 2001 2152 Exchanges - Depth: IEX; Top: BYX; PEARL; AMEX; CHX; NYSENAT; PSX; MEMX; EDGEA; LTSE; ISE; DRCTEDGE; Need additional market data permissions - Depth: BATS; ARCA; ISLAND; BEX; NYSE; 
+(MainThread) 201217_07:20:36.426 ERROR wrapper.py:56 ERROR -1 2103 Market data farm connection is broken:usopt
+(MainThread) 201217_07:20:36.664 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usopt
+(MainThread) 201217_07:21:02.404 ERROR wrapper.py:56 ERROR -1 2105 HMDS data farm connection is broken:ushmds
+(MainThread) 201217_07:21:02.675 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:ushmds
+(MainThread) 201217_07:22:10.105 ERROR wrapper.py:56 ERROR -1 2103 Market data farm connection is broken:cashfarm
+(MainThread) 201217_07:22:11.200 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:cashfarm

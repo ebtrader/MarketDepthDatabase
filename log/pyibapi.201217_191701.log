@@ -1,0 +1,9 @@
+(Thread-1) 201217_19:17:01.178 ERROR reader.py:52 unhandled exception in EReader thread
+Traceback (most recent call last):
+  File "C:\Users\jsidd\AppData\Roaming\Python\Python38\site-packages\ibapi\reader.py", line 34, in run
+    data = self.conn.recvMsg()
+  File "C:\Users\jsidd\AppData\Roaming\Python\Python38\site-packages\ibapi\connection.py", line 99, in recvMsg
+    buf = self._recvAllMsg()
+  File "C:\Users\jsidd\AppData\Roaming\Python\Python38\site-packages\ibapi\connection.py", line 119, in _recvAllMsg
+    buf = self.socket.recv(4096)
+OSError: [WinError 10038] An operation was attempted on something that is not a socket

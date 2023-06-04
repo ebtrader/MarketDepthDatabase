@@ -1,0 +1,48 @@
+(MainThread) 201217_19:22:42.893 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfarm.nj
+(MainThread) 201217_19:22:42.894 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfuture
+(MainThread) 201217_19:22:42.894 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:cashfarm
+(MainThread) 201217_19:22:42.894 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usopt
+(MainThread) 201217_19:22:42.895 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfarm
+(MainThread) 201217_19:22:42.895 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:euhmds
+(MainThread) 201217_19:22:42.899 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:cashhmds
+(MainThread) 201217_19:22:42.899 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:fundfarm
+(MainThread) 201217_19:22:42.899 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:ushmds
+(MainThread) 201217_19:22:42.899 ERROR wrapper.py:56 ERROR -1 2158 Sec-def data farm connection is OK:secdefnj
+(MainThread) 201217_19:55:17.372 ERROR wrapper.py:56 ERROR -1 2105 HMDS data farm connection is broken:euhmds
+(MainThread) 201217_19:55:17.372 ERROR wrapper.py:56 ERROR -1 1100 Connectivity between IB and Trader Workstation has been lost.
+(MainThread) 201217_19:55:19.157 ERROR wrapper.py:56 ERROR -1 2157 Sec-def data farm connection is broken:secdefnj
+(MainThread) 201217_19:55:19.902 ERROR wrapper.py:56 ERROR -1 2103 Market data farm connection is broken:usfarm
+(MainThread) 201217_19:55:19.917 ERROR wrapper.py:56 ERROR -1 2158 Sec-def data farm connection is OK:secdefnj
+(MainThread) 201217_19:55:20.371 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfarm
+(MainThread) 201217_19:55:20.515 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:euhmds
+(MainThread) 201217_19:55:30.840 ERROR wrapper.py:56 ERROR 2004 317 Market depth data has been RESET. Please empty deep book contents before applying any new entries.
+(MainThread) 201217_19:55:30.841 ERROR wrapper.py:56 ERROR 2003 317 Market depth data has been RESET. Please empty deep book contents before applying any new entries.
+(MainThread) 201217_19:55:30.857 ERROR wrapper.py:56 ERROR -1 2103 Market data farm connection is broken:usfuture
+(MainThread) 201217_19:55:31.265 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfuture
+(MainThread) 201217_19:55:47.287 ERROR wrapper.py:56 ERROR -1 2103 Market data farm connection is broken:usopt
+(MainThread) 201217_19:55:47.288 ERROR wrapper.py:56 ERROR -1 2103 Market data farm connection is broken:cashfarm
+(MainThread) 201217_19:55:47.485 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usopt
+(MainThread) 201217_19:55:47.486 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:cashfarm
+(MainThread) 201217_19:55:48.492 ERROR wrapper.py:56 ERROR -1 2105 HMDS data farm connection is broken:fundfarm
+(MainThread) 201217_19:55:48.676 ERROR wrapper.py:56 ERROR -1 2103 Market data farm connection is broken:usfarm.nj
+(MainThread) 201217_19:55:48.696 ERROR wrapper.py:56 ERROR -1 2103 Market data farm connection is broken:cashfarm
+(MainThread) 201217_19:55:48.797 ERROR wrapper.py:56 ERROR -1 2103 Market data farm connection is broken:usopt
+(MainThread) 201217_19:55:48.806 ERROR wrapper.py:56 ERROR 2004 317 Market depth data has been RESET. Please empty deep book contents before applying any new entries.
+(MainThread) 201217_19:55:48.857 ERROR wrapper.py:56 ERROR 2003 317 Market depth data has been RESET. Please empty deep book contents before applying any new entries.
+(MainThread) 201217_19:55:48.890 ERROR wrapper.py:56 ERROR -1 2103 Market data farm connection is broken:usfuture
+(MainThread) 201217_19:55:48.891 ERROR wrapper.py:56 ERROR -1 2103 Market data farm connection is broken:usfarm
+(MainThread) 201217_19:55:48.909 ERROR wrapper.py:56 ERROR -1 2157 Sec-def data farm connection is broken:secdefnj
+(MainThread) 201217_19:55:48.922 ERROR wrapper.py:56 ERROR -1 2105 HMDS data farm connection is broken:euhmds
+(MainThread) 201217_19:55:48.935 ERROR wrapper.py:56 ERROR -1 2105 HMDS data farm connection is broken:cashhmds
+(MainThread) 201217_19:55:48.980 ERROR wrapper.py:56 ERROR -1 2105 HMDS data farm connection is broken:ushmds
+(MainThread) 201217_19:55:49.010 ERROR wrapper.py:56 ERROR -1 2105 HMDS data farm connection is broken:fundfarm
+(MainThread) 201217_19:55:49.010 ERROR wrapper.py:56 ERROR -1 2158 Sec-def data farm connection is OK:secdefnj
+(MainThread) 201217_19:55:49.010 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:cashhmds
+(MainThread) 201217_19:55:49.011 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:ushmds
+(MainThread) 201217_19:55:49.152 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfuture
+(MainThread) 201217_19:55:49.182 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfarm
+(MainThread) 201217_19:55:50.506 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfarm.nj
+(MainThread) 201217_19:55:51.597 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:euhmds
+(MainThread) 201217_19:55:52.994 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:cashfarm
+(MainThread) 201217_19:55:52.994 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usopt
+(MainThread) 201217_19:55:53.086 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:fundfarm

@@ -1,0 +1,13 @@
+(MainThread) 210420_09:27:04.917 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfarm.nj
+(MainThread) 210420_09:27:04.918 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfuture
+(MainThread) 210420_09:27:04.918 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:cashfarm
+(MainThread) 210420_09:27:04.918 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usopt
+(MainThread) 210420_09:27:04.919 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfarm
+(MainThread) 210420_09:27:04.919 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:euhmds
+(MainThread) 210420_09:27:04.919 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:cashhmds
+(MainThread) 210420_09:27:04.920 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:fundfarm
+(MainThread) 210420_09:27:04.920 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:ushmds
+(MainThread) 210420_09:27:04.920 ERROR wrapper.py:56 ERROR -1 2158 Sec-def data farm connection is OK:secdefnj
+(MainThread) 210420_09:27:04.973 ERROR wrapper.py:56 ERROR 2003 200 No security definition has been found for the request
+(MainThread) 210420_09:27:04.980 ERROR wrapper.py:56 ERROR 2004 200 No security definition has been found for the request
+(MainThread) 210420_09:27:05.066 ERROR wrapper.py:56 ERROR 2005 200 No security definition has been found for the request

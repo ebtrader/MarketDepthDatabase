@@ -1,0 +1,31 @@
+(MainThread) 201217_06:43:06.994 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfarm.nj
+(MainThread) 201217_06:43:06.994 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfuture
+(MainThread) 201217_06:43:06.995 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:cashfarm
+(MainThread) 201217_06:43:06.995 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usopt
+(MainThread) 201217_06:43:06.996 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfarm
+(MainThread) 201217_06:43:06.996 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:cashhmds
+(MainThread) 201217_06:43:07.000 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:ushmds
+(MainThread) 201217_06:43:07.000 ERROR wrapper.py:56 ERROR -1 2158 Sec-def data farm connection is OK:secdefnj
+(MainThread) 201217_06:43:07.699 ERROR wrapper.py:56 ERROR 2001 2152 Exchanges - Depth: IEX; Top: BYX; PEARL; AMEX; CHX; NYSENAT; PSX; MEMX; EDGEA; LTSE; ISE; DRCTEDGE; Need additional market data permissions - Depth: BATS; ARCA; ISLAND; BEX; NYSE; 
+(MainThread) 201217_06:44:49.847 ERROR wrapper.py:56 ERROR -1 2108 Market data farm connection is inactive but should be available upon demand.usfuture
+(MainThread) 201217_06:44:49.847 ERROR wrapper.py:56 ERROR -1 2108 Market data farm connection is inactive but should be available upon demand.usfuture
+(MainThread) 201217_06:44:51.071 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:eufarm
+(MainThread) 201217_06:44:53.324 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:jfarm
+(MainThread) 201217_06:45:57.535 ERROR wrapper.py:56 ERROR -1 2108 Market data farm connection is inactive but should be available upon demand.jfarm
+(MainThread) 201217_06:45:57.537 ERROR wrapper.py:56 ERROR -1 2108 Market data farm connection is inactive but should be available upon demand.jfarm
+(MainThread) 201217_06:45:57.539 ERROR wrapper.py:56 ERROR -1 2108 Market data farm connection is inactive but should be available upon demand.eufarm
+(MainThread) 201217_06:45:57.540 ERROR wrapper.py:56 ERROR -1 2108 Market data farm connection is inactive but should be available upon demand.eufarm
+(MainThread) 201217_06:51:14.987 ERROR wrapper.py:56 ERROR -1 2103 Market data farm connection is broken:usfarm.nj
+(MainThread) 201217_06:51:15.089 ERROR wrapper.py:56 ERROR -1 2157 Sec-def data farm connection is broken:secdefnj
+(MainThread) 201217_06:51:15.089 ERROR wrapper.py:56 ERROR -1 2103 Market data farm connection is broken:usfarm
+(MainThread) 201217_06:51:15.241 ERROR wrapper.py:56 ERROR -1 2103 Market data farm connection is broken:usopt
+(MainThread) 201217_06:51:15.281 ERROR wrapper.py:56 ERROR -1 2105 HMDS data farm connection is broken:ushmds
+(MainThread) 201217_06:51:15.281 ERROR wrapper.py:56 ERROR -1 2103 Market data farm connection is broken:cashfarm
+(MainThread) 201217_06:51:15.306 ERROR wrapper.py:56 ERROR -1 2105 HMDS data farm connection is broken:cashhmds
+(MainThread) 201217_06:51:15.319 ERROR wrapper.py:56 ERROR -1 2158 Sec-def data farm connection is OK:secdefnj
+(MainThread) 201217_06:51:15.331 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:cashhmds
+(MainThread) 201217_06:51:15.353 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:ushmds
+(MainThread) 201217_06:51:15.372 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usopt
+(MainThread) 201217_06:51:15.432 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:cashfarm
+(MainThread) 201217_06:51:15.579 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfarm
+(MainThread) 201217_06:51:15.681 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfarm.nj

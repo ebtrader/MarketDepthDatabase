@@ -1,0 +1,18 @@
+(MainThread) 201217_12:33:58.793 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfarm.nj
+(MainThread) 201217_12:33:58.793 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfuture
+(MainThread) 201217_12:33:58.793 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:cashfarm
+(MainThread) 201217_12:33:58.793 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usopt
+(MainThread) 201217_12:33:58.794 ERROR wrapper.py:56 ERROR -1 2104 Market data farm connection is OK:usfarm
+(MainThread) 201217_12:33:58.794 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:cashhmds
+(MainThread) 201217_12:33:58.797 ERROR wrapper.py:56 ERROR -1 2106 HMDS data farm connection is OK:ushmds
+(MainThread) 201217_12:33:58.797 ERROR wrapper.py:56 ERROR -1 2158 Sec-def data farm connection is OK:secdefnj
+(MainThread) 201217_12:33:58.893 ERROR wrapper.py:56 ERROR 2002 2152 Exchanges - Depth: GLOBEX; 
+(Thread-1) 201217_12:33:58.922 ERROR reader.py:52 unhandled exception in EReader thread
+Traceback (most recent call last):
+  File "C:\Users\jsidd\AppData\Roaming\Python\Python38\site-packages\ibapi\reader.py", line 34, in run
+    data = self.conn.recvMsg()
+  File "C:\Users\jsidd\AppData\Roaming\Python\Python38\site-packages\ibapi\connection.py", line 99, in recvMsg
+    buf = self._recvAllMsg()
+  File "C:\Users\jsidd\AppData\Roaming\Python\Python38\site-packages\ibapi\connection.py", line 119, in _recvAllMsg
+    buf = self.socket.recv(4096)
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
