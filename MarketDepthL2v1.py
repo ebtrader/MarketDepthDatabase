@@ -9,7 +9,7 @@ import os.path
 import time
 
 
-# import pandas as pd
+import pandas as pd
 from datetime import datetime
 from ibapi import wrapper
 from ibapi import utils
@@ -87,7 +87,6 @@ class TestApp(EWrapper, EClient):
     def __init__(self):
         EWrapper.__init__(self)
         EClient.__init__(self, wrapper=self)
-        #self.df = pd.DataFrame(columns=['reqid', 'Position', 'Operation', 'Side', 'Price', 'Size', 'Time'])
         # ! [socket_init]
         self.nKeybInt = 0
         self.started = False
@@ -192,8 +191,10 @@ class TestApp(EWrapper, EClient):
         # ! [reqmarketdepth]
         #self.reqMktDepth(2001, ContractSamples.EurGbpFx(), 5, False, [])
 
-        #self.reqMktDepth(2001, ContractSamples.USStock(), 5, True, [])
-        self.reqMktDepth(2002, ContractSamples.SimpleFuture(), 5, True, [])
+        #self.reqMktDepth(2002, ContractSamples.USStock(), 5, True, [])
+        self.reqMktDepth(2003, ContractSamples.SimpleFuture(), 5, False, []) #False for futures - originally had False and then changed to True
+        # self.reqMktDepth(2004, ContractSamples.ESFuture(), 5, False, [])  # False for futures
+        # self.reqMktDepth(2005, ContractSamples.CLFuture(), 5, False, [])  # False for futures
         # ! [reqmarketdepth]
 
         # ! [reqmarketdepth]
@@ -214,19 +215,17 @@ class TestApp(EWrapper, EClient):
         # ! [cancelmktdepth]
 
     @iswrapper
-    # ! [updatemktdepthl2]
-    def updateMktDepthL2(self, reqId: TickerId, position: int, marketMaker: str,
-                         operation: int, side: int, price: float, size: int, isSmartDepth: bool):
-        super().updateMktDepthL2(reqId, position, marketMaker, operation, side,
-                                 price, size, isSmartDepth)
+    # ! [updatemktdepth]
+    def updateMktDepth(self, reqId: TickerId, position: int, operation: int,
+                       side: int, price: float, size: int):
+        super().updateMktDepth(reqId, position, operation, side, price, size)
+        #print('*' * 50, '\n')
         now = datetime.now()
         timestamp = now.strftime("%d/%m/%Y %H:%M:%S")
-        print("UpdateMarketDepthL2. ReqId:", reqId, "Position:", position, "Operation:",
-              operation, "Side:", side, "Price:", price, "Size:", size, "Time:", timestamp)
+        #print("UpdateMarketDepth. ReqId:", reqId, "Position:", position, "Operation:", operation, "Side:", side, "Price:", price, "Size:", size, "Time:", timestamp)
+        self.persistData(reqId, position, operation, side, price, size, timestamp)
 
-        #self.df.loc[len(self.df)] = [reqId, position, operation, side, price, size, timestamp]
-        #self.df.to_csv('program_L2.csv')
-    # ! [updatemktdepthl2]
+    # ! [updatemktdepth]
 
     def persistData(self, reqId: TickerId, position: int, operation: int,
                        side: int, price: float, size: int, timestamp: str):
@@ -236,31 +235,6 @@ class TestApp(EWrapper, EClient):
         values = (reqId, position, operation, side, price, size, timestamp)
         db = DBHelper()
         db.insertData(values)
-
-
-
-
-    # @iswrapper
-    # # ! [updatemktdepth]
-    # def updateMktDepth(self, reqId: TickerId, position: int, operation: int,
-    #                    side: int, price: float, size: int):
-    #     super().updateMktDepth(reqId, position, operation, side, price, size)
-    #     #print('*' * 50, '\n')
-    #     now = datetime.now()
-    #     timestamp = now.strftime("%d/%m/%Y %H:%M:%S")
-    #     print("UpdateMarketDepth. ReqId:", reqId, "Position:", position, "Operation:", operation, "Side:", side, "Price:", price, "Size:", size, "Time:", timestamp)
-    #     self.persistData(reqId, position, operation, side, price, size, timestamp)
-    #
-    # # ! [updatemktdepth]
-    #
-    # def persistData(self, reqId: TickerId, position: int, operation: int,
-    #                    side: int, price: float, size: int, timestamp: str):
-    #     #print("current datetime stamp is : {}".format(datetime))
-    #
-    #
-    #     values = (reqId, position, operation, side, price, size, timestamp)
-    #     db = DBHelper()
-    #     db.insertData(values)
 
 
 def main():

@@ -266,9 +266,9 @@ class ContractSamples:
         contract = Contract()
         contract.symbol = "NQ"
         contract.secType = "FUT"
-        contract.exchange = "GLOBEX"
+        contract.exchange = "CME"
         contract.currency = "USD"
-        contract.lastTradeDateOrContractMonth = "202103"
+        contract.lastTradeDateOrContractMonth = "202306"
         #! [futcontract]
         return contract
 
@@ -278,9 +278,9 @@ class ContractSamples:
         contract = Contract()
         contract.symbol = "ES"
         contract.secType = "FUT"
-        contract.exchange = "GLOBEX"
+        contract.exchange = "CME"
         contract.currency = "USD"
-        contract.lastTradeDateOrContractMonth = "202103"
+        contract.lastTradeDateOrContractMonth = "202306"
         #! [futcontract]
         return contract
 
@@ -290,9 +290,9 @@ class ContractSamples:
         contract = Contract()
         contract.symbol = "NQ"
         contract.secType = "FUT"
-        contract.exchange = "GLOBEX"
+        contract.exchange = "CME"
         contract.currency = "USD"
-        contract.lastTradeDateOrContractMonth = "202103"
+        contract.lastTradeDateOrContractMonth = "202306"
         # ! [futcontract]
         return contract
 
@@ -302,9 +302,9 @@ class ContractSamples:
         contract = Contract()
         contract.symbol = "CL"
         contract.secType = "FUT"
-        contract.exchange = "NYMEX"
+        contract.exchange = "CME"
         contract.currency = "USD"
-        contract.lastTradeDateOrContractMonth = "202102"
+        contract.lastTradeDateOrContractMonth = "202306"
         # ! [futcontract]
         return contract
 
